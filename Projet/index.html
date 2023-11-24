@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="fade-up">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative top-0 start-0 w-100">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="index.html">
+                BMW-M
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
+                <div class="d-flex justify-content-center">
+                    <a href="index.html" class="navbar-brand d-none d-lg-block">
+                        <img src="image/logobmw1.png" alt="logobmw" width="auto" height="40">
+                    </a>
+                </div>
+                <div class="d-block w-100">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
+                        <li class="nav-item mx-2">
+                            <a href="index.html" class="nav-link active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Models
+                            </a>
+                            <ul>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="pages/m3cs.html">BMW-M3-CS</a></li>
+                                    <li><a class="dropdown-item" href="pages/m2c.html">BMW-M2-Competition</a></li>
+                                    <li><a class="dropdown-item" href="pages/m4csl.html">BMW-M4-CSL</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="pages/reservation.html" class="nav-link active">
+
+                                Reservation
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="pages/contact.html" class="nav-link active">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container position-relative text-center">
+        <header class="position-relative text-center text-white mb-5 m-3">
+            <img src="image/bmw-m3-cs.jpg" class="w-100" alt="banner">
+            <div class="position-absolute top-50 start-50 translate-middle-x w-100 px-3">
+                <h1 class="display-2 ">The new BMW M3 Cs</h1>
+                <a href="pages/m3cs.html" class="btn btn-warning">
+                    Buy NOW!
+                </a>
+            </div>
+        </header>
+        <h2 class="display-5 py-4">
+            Other Models
+        </h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="image/bmw-m3-cs.jpg" class="card-img-top" alt="bmw-m3-cs">
+                    <div class="card-body bg-black text-light">
+                        <h5 class="card-title">BMW M3 CS</h5>
+                        <p class="card-text">the new BMW M3 CS develops maximum torque of 650 Nm from 2,750 rpm, and
+                            maintains it up to 5,950 rpm. It generates its maximum power at 6,250 rpm and reaches its
+                            cut-out at 7,200 rpm.</p>
+                    </div>
+                    <div class="card-footer bg-black">
+                        <a href="pages/m3cs.html" class="btn btn-primary">Start at 119,695 $</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="image/BMW-M4-CSL.avif" class="card-img-top" alt="BMW-M4-CSL">
+                    <div class="card-body bg-black text-light">
+                        <h5 class="card-title">BMW M4 CSL</h5>
+                        <p class="card-text">The new 2023 BMW M4 CSL is a bomb whose power climbs to 543 horsepower, 40
+                            more than the M4 Competition, which allowed it to set the fastest lap for a production BMW
+                            model on the German Nürburgring circuit. Nordschleife (7:20 minutes).</p>
+                    </div>
+                    <div class="card-footer bg-black">
+                        <a href="pages/m4csl.html" class="btn btn-primary">Start at 140,895$</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="image/BMW-M2.jpg" class="card-img-top" alt="BMW-M2">
+                    <div class="card-body bg-black text-light">
+                        <h5 class="card-title">BMW-M2</h5>
+                        <p class="card-text">The BMW M2 Coupé combines typical BMW proportions and powerful design with
+                            sportiness straight from motor racing. The BMW M 6-cylinder in-line M TwinPower Turbo engine
+                            develops a power of 460 hp and a torque of 550 Nm.</p>
+                    </div>
+                    <div class="card-footer bg-black">
+                        <a href="pages/m2c.html" class="btn btn-primary">Start at 63,200$</a>
+                    </div>
+                </div>
+            </div>
+            <section class="my-5 mx-auto py-5" id="contactbtn">
+                <a href="pages/contact.html" class="btn btn-danger text-capitalize">
+                    contact-now
+                </a>
+            </section>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container footer">
+        <footer class="d-flex justify-content-between my-5 text-start flex-wrap">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-muted">
+                        <img src="image/logobmw1.png" alt="logobmw" height="150">
+                    </a>
+                </li>
+                <li class="fw-bold nav-item">
+                    <p class="text-dark mt-3">
+                        Designed and built with all the love in the world
+                    </p>
+                </li>
+            </ul>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">
+                        Pages
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark active">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Models
+                    </a>
+                    <ul>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="pages/m3cs.html">BMW-M3-CS</a></li>
+                            <li><a class="dropdown-item" href="pages/m2c.html">BMW-M2-Competition</a></li>
+                            <li><a class="dropdown-item" href="pages/m4csl.html">BMW-M4-CSL</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/reservation.html" class="nav-link text-dark active">
+
+                        Reservation
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/contact.html" class="nav-link text-dark active">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

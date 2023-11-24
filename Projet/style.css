@@ -1,0 +1,31 @@
+footer {
+    background-color: rgb(186, 186, 186);
+    
+}
+.button{
+    background-color: blue;
+}
+body {
+    overflow-x: hidden; /* Cache la barre de défilement horizontal */
+}
+
+/* Limite la largeur des éléments qui causent le défilement horizontal */
+.element-problematique {
+    max-width: 100%;
+    overflow: hidden;
+}
+.fade-up {
+    animation: fade-up 1s ease-in-out;
+  }
+  
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

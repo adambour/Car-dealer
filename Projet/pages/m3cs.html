@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative top-0 start-0 w-100">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="../index.html">
+                BMW-M
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
+                <div class="d-flex justify-content-center">
+                    <a href="../index.html" class="navbar-brand d-none d-lg-block">
+                        <img src="../image/logobmw1.png" alt="logobmw" width="auto" height="40">
+                    </a>
+                </div>
+                <div class="d-block w-100">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
+                        <li class="nav-item mx-2">
+                            <a href="../index.html" class="nav-link active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Models
+                            </a>
+                            <ul>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="../pages/m3cs.html">BMW-M3-CS</a></li>
+                                    <li><a class="dropdown-item" href="../pages/m2c.html">BMW-M2-Competition</a></li>
+                                    <li><a class="dropdown-item" href="../pages/m4csl.html">BMW-M4-CSL</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="reservation.html" class="nav-link active">
+
+                                Reservation
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="contact.html" class="nav-link active">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="row py-5">
+        <div id="carouselExample" class="carousel slide col-12 col-md-6">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../image/bmw-m3-cs.jpg" class="d-block w-100" alt="M3CS">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/interior-m3cs.jpg" class="d-block w-100" alt="M3CS">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/interior2-m3cs.jpg" class="d-block w-100" alt="M3CS">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/interior-3M3CS.jpg" class="d-block w-100" alt="M3CS">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/arriere-m3cs.jpg" class="d-block w-100" alt="M3CS">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="col-12 col-md-6">
+            <h2>BMW M3 CS</h2>
+            <small class="text-muted">M3 Compétion Sports G80</small>
+            <h4 class="my-4">
+                form usd
+                <span id="price">116,695</span>
+                $
+            </h4>
+            <label for="selectcolor" class="text-muted">
+                Color
+            </label>
+            <select name="Color" id="color" class="form-select">
+                <option>RED</option>
+                <option selected>GREEN</option>
+                <option>WHITE</option>
+                <option>Froozen Bleu</option>
+            </select>
+            <br>
+            <div class="d-flex justify-content-xxl-around">
+                <a href="../paiement-m3.html" class="btn btn-primary">
+                    BUY NOW!
+                </a>
+                <br>
+                <a href="reservation.html" class="btn btn-dark">
+                    Book a trial
+                </a>
+            </div>
+            <br>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Description
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>The engine of the new BMW M3 CS combines a 405 kW/550 hp inline six-cylinder
+                                engine
+                                with
+                                an eight-speed M Steptronic gearbox and the intelligent M xDrive all-wheel drive
+                                system.
+                                These combined elements guarantee the model an acceleration from 0 to 100 km/h in
+                                3.4
+                                seconds and supreme performance, appreciable whatever the seat occupied. The new BMW
+                                M3
+                                CS
+                                will be produced from March 2023 in a limited edition at the BMW Group plant in
+                                Munich,
+                                its
+                                launch will begin the same month. The most important markets for this new special
+                                edition
+                                are the United States, Germany, the United Kingdom and Japan.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <div class="container footer">
+        <footer class="d-flex justify-content-between my-5 text-start flex-wrap ">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link text-muted">
+                        <img src="../image/logobmw1.png" alt="logobmw" height="150">
+                    </a>
+                </li>
+                <li class="fw-bold nav-item">
+                    <p class="text-dark mt-3">
+                        Designed and built with all the love in the world
+                    </p>
+                </li>
+            </ul>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">
+                        Pages
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link text-dark active">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Models
+                    </a>
+                    <ul>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="../pages/m3cs.html">BMW-M3-CS</a></li>
+                            <li><a class="dropdown-item" href="../pages/m2c.html">BMW-M2-Competition</a></li>
+                            <li><a class="dropdown-item" href="../pages/m4csl.html">BMW-M4-CSL</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="reservation.html" class="nav-link text-dark active">
+
+                        Reservation
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link text-dark active">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
